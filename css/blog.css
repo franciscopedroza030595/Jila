@@ -1,0 +1,26 @@
+#blog h3,h4,p{
+    text-align: center;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog article{
+    margin: 15px;
+}
+#blog img{
+    width: 90%;
+    max-width: 280px;
+    height: 60%
+}
+#blog .btndescer{
+  background: #fff;
+/*  color: black;
+*/
+  font-family: 'Lato', sans-serif;
+}
+#blog article p{
+  transform: translateY(-100%);
+}

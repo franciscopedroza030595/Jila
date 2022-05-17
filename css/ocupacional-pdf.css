@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 2px solid black;
+}
+header img{
+  padding: 8px;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    font-size: 20px;
+    transform: translateY(-540%);
+}
+p{
+    font-size: 12px;
+    transform: translateY(-210%);
+}
+h1,p{
+    text-align: center;    
+}
+section{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+/*------------Informacion de usuario--------------*/
+#header{
+    margin-top: 130px;
+}
+#header table{
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+#header .centrado{
+    text-align: center;
+    font-size: 13px;
+}
+#header span{
+    font-size: 17px;
+}
+
+#informacion h2{
+    text-align: center;
+    font-size: 15px;
+}
+#informacion table{
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#informacion th, .todo{
+    border: solid 1px black;
+    padding: 6px;
+}
+
+#informacion .derecha{
+    padding: 6px;
+}
+.imagen{
+    padding-left: 2px;
+}
+/*#informacion img{
+    height: 220px;
+    position: absolute;
+    bottom: 310px;
+    left: 970px;
+}*/
+#imagen-perfil{
+    text-align: center;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(21%) translateY(-45%);*/
+}
+/*------------Concepto medico y conducta--------------*/
+#concepto table{
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+    width: 100%;
+}
+#justify{
+    text-align: justify;    
+}
+#gris{
+    background-color: rgb(217,217,217);
+    font-size: 12px;
+}
+/*------------restricciones--------------*/
+#restricciones table{
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+    width: 100%;
+}
+#restricciones td{
+    text-transform: uppercase;
+}
+/*------------recomendaciones--------------*/
+#recomendaciones table{
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+    width: 100%;
+}
+#recomendaciones td{
+    text-transform: uppercase;
+}
+/*------------Firmas--------------*/
+#firmas{
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 1%;
+}
+#firmas table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+#firmas .tam-50{
+    width: 50%;
+}
+/*#firmas hr{
+    width: 50%;
+}*/
+#cuadros-texto{
+    text-align: justify; 
+    border-radius: 7px;
+}
+/*------------Osteomuscular--------------*/
+#osteomuscular table{
+    text-align: left;
+    border: solid 1px black;
+    border-collapse: collapse;
+    width: 100%;
+}
+#centrado{
+    text-align: center;
+}
+#grismod{
+    background-color: rgb(217,217,217);
+    font-size: 12px;
+    text-align: center;
+}

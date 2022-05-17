@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+}
+section{
+    width: 100%;
+    margin-bottom: 1.5%;
+}
+h2{
+    text-align: center;
+    font-size: 12px;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+table th, td{
+	border: solid 1px black;
+    padding: 6px;
+}
+table th{
+	background-color: rgb(217,217,217);
+    font-size: 11px;
+}
+
+#header table{
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+#header table td{
+	border: none;
+    padding: none;
+}
+#header table .grande{
+	text-align: center;
+	font-size: 17px;
+}
+.rojo{
+	color: red;
+}
+.azul{
+	color: blue;
+}
+.border-none{
+	border: none;
+}
+#fimas .firma{
+	border: none;
+	width: 10px;
+	height: 3px;
+}
+.tam-50{
+	text-align: center;
+}
+.firma{
+	border: none;
+	width: 350px;
+	height: 60px;
+}
+

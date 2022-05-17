@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url(menu.css);
+@import url(alturas_form.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 2px solid black;
+}
+header img{
+  padding: 5px;
+}
+img{
+    width: 115px;
+    float: left;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+    font-size: 20px;
+    padding-left: 5px;
+}
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#bienvenidos h2{
+  color: rgba(14,164,223,1);
+}
+input[type="text"]{
+    text-transform: uppercase;
+}
+#bienvenidos2 h2,h3{
+	text-align: justify;
+}
