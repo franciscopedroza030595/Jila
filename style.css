@@ -102,10 +102,10 @@ li {
 }
 
 p {
-    line-height: 1.9;
-    color: #707070;
-    font-size: 14px;
-    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 img {
@@ -121,6 +121,10 @@ ul {
 ul li {
     margin: 0;
     padding: 0;
+}
+
+.clientes {
+    align-items: baseline !important;
 }
 
 .bg-overlay {
@@ -155,7 +159,7 @@ ul li {
     background: #111D69;
     background: -webkit-linear-gradient(to right, #2c455d, #00012c);
     background: linear-gradient(to right, #2c455d, #00012c);
-    opacity: 0.80;
+    opacity: 0.35;
 }
 
 .bg-img {
@@ -247,6 +251,7 @@ ul li {
 
 .mb-30 {
     margin-bottom: 30px;
+    margin-top: 25%;
 }
 
 .mb-40 {
@@ -424,7 +429,7 @@ ul li {
 .section-heading {
     position: relative;
     z-index: 1;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .section-heading h2 {
@@ -719,6 +724,14 @@ ul li {
     z-index: 1;
 }
 
+.welcome-text h3 {
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    display: block;
+    text-transform: capitalize;
+}
+
 .welcome-text h2 {
     font-size: 55px;
     color: #ffffff;
@@ -885,7 +898,7 @@ ul li {
 .single-dentist-area {
     position: relative;
     z-index: 1;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -1028,18 +1041,19 @@ ul li {
 }
 
 .single-service img {
-    display: block;
     margin-bottom: 15px;
     max-height: 100px;
 }
 
-.single-service h6 {
+.single-service h6,
+h4,
+h3 {
     color: #ffffff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
     margin-bottom: 0;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1934,7 +1948,7 @@ ul li {
 .footer-area {
     position: relative;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .single-footer-widget {
@@ -2089,7 +2103,7 @@ ul li {
 
 .copywrite-content p {
     font-size: 12px;
-    color: #b7b7b7;
+    color: #ffffff;
     margin-bottom: 0;
 }
 
