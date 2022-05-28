@@ -630,7 +630,7 @@ ul li {
 }
 
 .classy-nav-container .classy-navbar {
-    height: 90px;
+    /* height: 90px; */
     padding: 0;
 }
 
@@ -738,6 +738,15 @@ ul li {
     margin-bottom: 30px;
     display: block;
     text-transform: capitalize;
+}
+
+.welcome-text img {
+    display: initial !important;
+    position: relative;
+    width: auto !important;
+    max-height: 70% !important;
+    z-index: 1;
+    opacity: 80%;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
