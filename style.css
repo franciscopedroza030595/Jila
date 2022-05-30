@@ -1054,7 +1054,8 @@ ul li {
     max-height: 100px;
 }
 
-.single-service h6,
+.single-service h2,
+h6,
 h4,
 h3 {
     color: #ffffff;
@@ -1063,6 +1064,15 @@ h3 {
     transition-duration: 500ms;
     margin-bottom: 0;
     font-weight: 500;
+}
+
+.single-service h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.single-service h6 {
+    font-size: 24px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
