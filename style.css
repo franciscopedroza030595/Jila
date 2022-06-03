@@ -750,8 +750,8 @@ ul li {
 .welcome-text img {
     display: initial !important;
     position: relative;
-    width: auto !important;
-    max-height: 70% !important;
+    width: 20% !important;
+    max-height: 50% !important;
     z-index: 1;
     opacity: 80%;
 }
