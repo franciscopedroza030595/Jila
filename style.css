@@ -2015,6 +2015,7 @@ ul li {
     position: relative;
     z-index: 1;
     padding-top: 50px;
+    background-image: url(banner.png);
 }
 
 .single-footer-widget {
