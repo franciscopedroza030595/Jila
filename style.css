@@ -1137,6 +1137,14 @@ ul li {
     z-index: 1;
 }
 
+.single-service--area img {
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    max-height: 70px;
+}
+
 .single-service--area .icon-- {
     position: relative;
     z-index: 1;
